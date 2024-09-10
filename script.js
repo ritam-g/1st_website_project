@@ -95,7 +95,7 @@ document.querySelectorAll(".ele")
 .forEach(function (ele) {
   ele.addEventListener("mousemove", function (dets) {
     gsap.to(ele.querySelector("img"),{
-      x:600,
+      x:700,
       rotate:360,
       
       repeat:-1,
